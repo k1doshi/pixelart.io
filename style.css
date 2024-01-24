@@ -1,0 +1,90 @@
+body {
+    background: url(./img/c5f1f1c521c1eea526a460363cfc4c38.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: my_font;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar {
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    opacity: 0.8;
+}
+
+.nav-menu a:hover {
+    opacity: 1;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: my_font;
+    src: url(./Minecraft\ Seven_2.ttf);
+}
+
+.page {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.reklama {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+    width: 20%;
+}
+
+.info {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+    width: 73%;
+}
+
+.reklama h2 {
+    text-align: center;
+}
+
+.gallery {
+    display: inline-block;
+}
+
+.gallery img {
+    border: 2px solid rgb(0, 0, 0);
+}
